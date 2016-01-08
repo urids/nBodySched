@@ -1,0 +1,116 @@
+!SESSION 2016-01-08 13:12:13.178 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -data /home/uriel/Dev/mpiApps/extnsApps/nBodyStaticSched -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.cdt.managedbuilder.core 4 0 2016-01-08 13:12:43.036
+!MESSAGE Exception trying to parse option [#include <.>], class GCCBuiltinSpecsDetector
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.cdt.utils.EFSExtensionManager.append(EFSExtensionManager.java:211)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractLanguageSettingsOutputScanner.processLine(AbstractLanguageSettingsOutputScanner.java:433)
+	at org.eclipse.cdt.managedbuilder.language.settings.providers.AbstractBuiltinSpecsDetector$ConsoleParserAdapter.processLine(AbstractBuiltinSpecsDetector.java:210)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.processLine(ConsoleOutputSniffer.java:178)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer.access$0(ConsoleOutputSniffer.java:174)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.checkLine(ConsoleOutputSniffer.java:99)
+	at org.eclipse.cdt.internal.core.ConsoleOutputSniffer$ConsoleOutputStream.write(ConsoleOutputSniffer.java:58)
+	at java.io.OutputStream.write(OutputStream.java:75)
+	at org.eclipse.cdt.internal.core.ProcessClosure$ReaderThread.run(ProcessClosure.java:55)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-01-08 13:12:44.128
+!MESSAGE Indexed 'nBodyStatic' (0 sources, 0 headers) in 0.00 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:22:22.002
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:22.002
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:22.002
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:22.002
+!MESSAGE Missing requirement: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:22:22.004
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:22.004
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:22.004
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:22.004
+!MESSAGE Missing requirement: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:22:41.785
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:41.785
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.785
+!MESSAGE Software being installed: Java implementation of Git - optional Http support using Apache httpclient 4.1.1.201511131810-r (org.eclipse.jgit.http.apache.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.785
+!MESSAGE Missing requirement: Apache HttpComponents HttpClient 4.3.6.v201411290715 (org.apache.httpcomponents.httpclient 4.3.6.v201411290715) requires 'package org.apache.commons.codec.binary 1.6.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:41.785
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.785
+!MESSAGE From: Java implementation of Git - optional Http support using Apache httpclient 4.1.1.201511131810-r (org.eclipse.jgit.http.apache.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.785
+!MESSAGE To: org.apache.httpcomponents.httpclient [4.3.6.v201411290715]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:22:41.788
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:41.788
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.788
+!MESSAGE Software being installed: Java implementation of Git - optional Http support using Apache httpclient 4.1.1.201511131810-r (org.eclipse.jgit.http.apache.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.788
+!MESSAGE Missing requirement: Apache HttpComponents HttpClient 4.3.6.v201411290715 (org.apache.httpcomponents.httpclient 4.3.6.v201411290715) requires 'package org.apache.commons.codec.binary 1.6.0' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:22:41.788
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.788
+!MESSAGE From: Java implementation of Git - optional Http support using Apache httpclient 4.1.1.201511131810-r (org.eclipse.jgit.http.apache.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:22:41.788
+!MESSAGE To: org.apache.httpcomponents.httpclient [4.3.6.v201411290715]
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:23:11.478
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:23:11.478
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:23:11.478
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:23:11.478
+!MESSAGE Missing requirement: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:23:11.480
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:23:11.480
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:23:11.480
+!MESSAGE Software being installed: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:23:11.480
+!MESSAGE Missing requirement: Eclipse Git Team Provider - Task focused interface 4.1.1.201511131810-r (org.eclipse.egit.mylyn.feature.group 4.1.1.201511131810-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:24:58.219
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:24:58.219
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:24:58.219
+!MESSAGE Software being installed: EGit Mylyn 2.1.0.201209190230-r (org.eclipse.egit.mylyn.feature.group 2.1.0.201209190230-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:24:58.219
+!MESSAGE Missing requirement: EGit Mylyn 2.1.0.201209190230-r (org.eclipse.egit.mylyn.feature.group 2.1.0.201209190230-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.operations 4 0 2016-01-08 13:24:58.221
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2016-01-08 13:24:58.221
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:24:58.221
+!MESSAGE Software being installed: EGit Mylyn 2.1.0.201209190230-r (org.eclipse.egit.mylyn.feature.group 2.1.0.201209190230-r)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2016-01-08 13:24:58.221
+!MESSAGE Missing requirement: EGit Mylyn 2.1.0.201209190230-r (org.eclipse.egit.mylyn.feature.group 2.1.0.201209190230-r) requires 'org.eclipse.mylyn.team_feature.feature.group 3.5.0' but it could not be found
+!SESSION 2016-01-08 14:37:29.047 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.7.0_07
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Command-line arguments:  -os linux -ws gtk -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-01-08 14:37:35.186
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
